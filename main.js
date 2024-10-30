@@ -1,2 +1,4 @@
-var personName = "Fraah";
-console.log("Hello", personName, "would you like to learn some python today?");
+var personName = "Farah";
+console.log(personName.toLowerCase());
+console.log(personName.toUpperCase());
+console.log(personName.replace(/\b\w/g, function (Char) { return Char.toUpperCase(); }));
